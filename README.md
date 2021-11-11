@@ -24,6 +24,8 @@ In designing and building your project, you will start by forking and cloneing t
      * Example online tool: [Miro.com](https://miro.com/)
           - https://www.figma.com/file/ofhTtag46TSi3HjS85trqg/Untitled?node-id=0%3A1
           - ![E39C4F4C-3056-4DF0-9643-E0900EEBE835_1_105_c](https://user-images.githubusercontent.com/78924263/141371577-e4879a91-9d8b-4f0b-bf60-a62a0b890b4c.jpeg)
+          - ![43E58CC4-6FA8-4F6D-A50D-F7D5B3A82A1E_1_105_c](https://user-images.githubusercontent.com/78924263/141372251-44bb0d03-8a12-4fbc-829c-3de36015aedf.jpeg)
+          - ![F60EB819-B2DF-4C90-BE93-DB3EFB666550_1_105_c](https://user-images.githubusercontent.com/78924263/141372263-b0911511-ec5b-4235-be66-6befe0faa775.jpeg)
 
 5. API you plan to use
 
