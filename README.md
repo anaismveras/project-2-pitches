@@ -31,7 +31,7 @@ In designing and building your project, you will start by forking and cloneing t
      - https://documenter.getpostman.com/view/2672636/RWEcPfuJ#5d0fe890-6c63-447e-ba89-bb353b8caf1a
 
 6. ERD
-    ![4320A604-A56C-4CC8-A808-647A05918A3A](https://user-images.githubusercontent.com/78924263/141371472-aaa80b2c-c8a4-455d-af4e-8a9315b10482.jpeg)
+    - ![4320A604-A56C-4CC8-A808-647A05918A3A](https://user-images.githubusercontent.com/78924263/141371472-aaa80b2c-c8a4-455d-af4e-8a9315b10482.jpeg)
 
 7. Example of how to call/invoke your API, and a description of what data comes back.
      - Calling API for Hotel Name
