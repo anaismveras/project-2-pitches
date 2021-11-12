@@ -35,7 +35,8 @@ In designing and building your project, you will start by forking and cloneing t
 
 6. ERD
 
-     - ![8BC3D553-A998-49AF-A4F1-5ECEB1A703E9](https://user-images.githubusercontent.com/78924263/141402164-b43f8a14-d5d1-4988-8fdc-69dd630a2212.jpeg)
+     - ![D6640DC6-B98D-4A25-9C9E-647396B3444C](https://user-images.githubusercontent.com/78924263/141533178-268cfcbb-854e-44f3-9443-9e4ace2147a9.jpeg)
+
 
 7. Example of how to call/invoke your API, and a description of what data comes back.
      - For Searched Animals by zipCode
