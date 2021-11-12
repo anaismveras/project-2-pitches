@@ -14,7 +14,7 @@ In your second project you will create a full stack Express and Postgres app whi
 
 In designing and building your project, you will start by forking and cloneing this repository, and then editing this README to include the following information: 
 1. Name of your app
-     - Gaycation 🌈
+     - perfectPet 🐶
 
 2. Tech stack you plan to use
      - Express, Ejs, Ejs-layouts, sequelize, method-override, axios
@@ -22,33 +22,64 @@ In designing and building your project, you will start by forking and cloneing t
 3. Simple wireframes
      * Can be handdrawn, or with tool of your choice
      * Example online tool: [Miro.com](https://miro.com/)
-          - https://www.figma.com/file/ofhTtag46TSi3HjS85trqg/Untitled?node-id=0%3A1
-          - ![E39C4F4C-3056-4DF0-9643-E0900EEBE835_1_105_c](https://user-images.githubusercontent.com/78924263/141371577-e4879a91-9d8b-4f0b-bf60-a62a0b890b4c.jpeg)
-          - ![43E58CC4-6FA8-4F6D-A50D-F7D5B3A82A1E_1_105_c](https://user-images.githubusercontent.com/78924263/141372251-44bb0d03-8a12-4fbc-829c-3de36015aedf.jpeg)
-          - ![F60EB819-B2DF-4C90-BE93-DB3EFB666550_1_105_c](https://user-images.githubusercontent.com/78924263/141372263-b0911511-ec5b-4235-be66-6befe0faa775.jpeg)
-          - ![5C39B0B2-D367-4F30-9F78-0905F5E851C6_1_105_c](https://user-images.githubusercontent.com/78924263/141372386-e8379d6e-f0c3-423a-af4a-aa21af1eed5d.jpeg)
-          - ![DFCB015D-AC8F-4E35-9AEB-BBF1A6A7B0E3_1_105_c](https://user-images.githubusercontent.com/78924263/141372477-087aa310-4455-46b6-8198-17bc97e6ddbb.jpeg)
-
+          - https://www.figma.com/file/ku8IuoGYtNKk7uuLVsqMvD/perfectPet?node-id=0%3A1
+          
 5. API you plan to use
-
-     - https://developers.amadeus.com/self-service/category/hotel/api-doc/hotel-search
-     - https://developers.amadeus.com/self-service/category/hotel/api-doc/hotel-search/api-reference
-     - https://developers.amadeus.com/self-service/apis-docs/guides/authorization-262
-     - https://documenter.getpostman.com/view/2672636/RWEcPfuJ#5d0fe890-6c63-447e-ba89-bb353b8caf1a
+     - https://www.petfinder.com/developers/v2/docs/
 
 6. ERD
     - ![4320A604-A56C-4CC8-A808-647A05918A3A](https://user-images.githubusercontent.com/78924263/141371472-aaa80b2c-c8a4-455d-af4e-8a9315b10482.jpeg)
 
 7. Example of how to call/invoke your API, and a description of what data comes back.
-     - Calling API for Hotel Name
-          - https://test.api.amadeus.com/v2/shopping/hotel-offers?cityCode=${cityName}
-     - Calling API for hotel image
-          -
-     - Calling API for LGBTIA+ Safety Rating
-          - https://test.api.amadeus.com/v1/safety/safety-rated-locations?latitude=41.397158&longitude=2.160873&radius=2
+     - For Searched Animals by zipCode
+          - app.get('/:location', (req, res) => {
+               //will make the call after user puts in zipCode
+               let animalsUrl = 'https://api.petfinder.com/v2/animals/${location}';
+
+          axios.get(animalsUrl).then(apiRes => {
+               let animals = apiRes.animals
+          res.render('locationDetail', {animals});
+               })
+          });
+          
+     -To see information of Favorited Animal
+          - router.get('/:id', (req, res)=> {
+               let favePetInfo => req.params.id 
+               let animalUrl = https://api.petfinder.com/v2/animals/${id}
+
+          axios.get(animalUrl)
+               .then(apiRes => {
+                    let petImage = apiRes.animal.photos.medium
+                    let petStatus = apiRes.animal.status
+                    let petName = apiRes.animal.name
+                    let petAge = apiRes.animal.age
+                    let petBreed = apiRes.animal.breeds.primary
+                    let petGender = apiRes.animal.gender
+                    let petDescrption = apiRes.animal.description
+
+          res.render('faveDetail', {petImage, petStatus, petName, petAge, petBreed, petGender, petDescrption})
+          })
+          .catch(error => {
+          console.log(error)
+               })
+          })
+
+
 8. MVP goals (x3-5)
+     - Have users press a button to sign up/login and be put/aknowledged into a data base
+     - Have users search by city name show pets in that area
+     - Have users be able to press a button to favorite a pet to be added to a "favorite pets" list
+     - Have users see their "favorite pets" list and be able to remove animals and see more about an animal by clicking the name
+     - Use API call to show animal information
+
 9. Stretch goals (x2-5)
+     - Show ONLY animals with disabilities
+     - Have User be able to go to the adoption agency website
+
 10. Any potential roadblocks?
+     - Not being able to ONLY show special needs pets since in the API it shows as a boolean
+     - Not being able to get the API to get the write information for the pet
+     - Not being able to get the CSS to look right
 
 ## How to get started
 1. **Fork and clone this repository.**
