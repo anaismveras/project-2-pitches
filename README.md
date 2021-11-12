@@ -44,7 +44,7 @@ In designing and building your project, you will start by forking and cloneing t
                })
           }); 
 
-     // To see information of Favorited Animal
+     - To see information of Favorited Animal
 
                router.get('/:id', (req, res)=> {
                let favePetInfo => req.params.id 
