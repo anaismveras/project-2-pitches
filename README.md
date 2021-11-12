@@ -28,8 +28,8 @@ In designing and building your project, you will start by forking and cloneing t
           - ![perfectPet](https://user-images.githubusercontent.com/78924263/141401607-1988bd48-033b-4a39-894c-a22cf6bd0aa8.png)
           - ![perfectPet (6)](https://user-images.githubusercontent.com/78924263/141401779-424abb3f-51b5-40c2-8855-34c891c3c76f.png)
           - ![perfectPet (3)](https://user-images.githubusercontent.com/78924263/141401642-7f7d50ca-2654-4b8f-a48a-4e028adef009.png)
-          - ![perfectPet (4)](https://user-images.githubusercontent.com/78924263/141401665-fbc39c45-01be-44e2-bf40-ff8516b99ec9.png)
-
+          - ![perfectPet (7)](https://user-images.githubusercontent.com/78924263/141534683-953ef406-6216-46fa-94ad-3e03564e66bd.png)
+         
 5. API you plan to use
      - https://www.petfinder.com/developers/v2/docs/
 
