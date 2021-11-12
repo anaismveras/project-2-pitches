@@ -34,7 +34,8 @@ In designing and building your project, you will start by forking and cloneing t
      - https://www.petfinder.com/developers/v2/docs/
 
 6. ERD
-    - ![9C418F4E-7088-4F9E-9202-85DAA4F7EF5E](https://user-images.githubusercontent.com/78924263/141401095-9446774d-3acf-4554-89a1-b7dec72bd076.jpeg)
+
+     - ![8BC3D553-A998-49AF-A4F1-5ECEB1A703E9](https://user-images.githubusercontent.com/78924263/141402164-b43f8a14-d5d1-4988-8fdc-69dd630a2212.jpeg)
 
 7. Example of how to call/invoke your API, and a description of what data comes back.
      - For Searched Animals by zipCode
