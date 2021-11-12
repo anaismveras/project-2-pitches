@@ -25,7 +25,7 @@ In designing and building your project, you will start by forking and cloneing t
           - https://www.figma.com/file/ku8IuoGYtNKk7uuLVsqMvD/perfectPet?node-id=0%3A1
           - ![perfectPet (5)](https://user-images.githubusercontent.com/78924263/141401541-6ca5cd12-f41d-429e-848d-b1938128f4b9.png)
           - ![perfectPet](https://user-images.githubusercontent.com/78924263/141401607-1988bd48-033b-4a39-894c-a22cf6bd0aa8.png)
-          - ![perfectPet (2)](https://user-images.githubusercontent.com/78924263/141401624-e7f9e5e9-1887-44f6-9b3a-0c658358c4fd.png)
+          - ![perfectPet (6)](https://user-images.githubusercontent.com/78924263/141401779-424abb3f-51b5-40c2-8855-34c891c3c76f.png)
           - ![perfectPet (3)](https://user-images.githubusercontent.com/78924263/141401642-7f7d50ca-2654-4b8f-a48a-4e028adef009.png)
           - ![perfectPet (4)](https://user-images.githubusercontent.com/78924263/141401665-fbc39c45-01be-44e2-bf40-ff8516b99ec9.png)
 
