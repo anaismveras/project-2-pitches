@@ -32,7 +32,7 @@ In designing and building your project, you will start by forking and cloneing t
 
 7. Example of how to call/invoke your API, and a description of what data comes back.
      - For Searched Animals by zipCode
-          - app.get('/:location', (req, res) => {
+          ``` app.get('/:location', (req, res) => {
                //will make the call after user puts in zipCode
                let animalsUrl = 'https://api.petfinder.com/v2/animals/${location}';
 
@@ -40,10 +40,10 @@ In designing and building your project, you will start by forking and cloneing t
                let animals = apiRes.animals
           res.render('locationDetail', {animals});
                })
-          });
-          
+          }); ```
+
      -To see information of Favorited Animal
-          - router.get('/:id', (req, res)=> {
+          ``` router.get('/:id', (req, res)=> {
                let favePetInfo => req.params.id 
                let animalUrl = https://api.petfinder.com/v2/animals/${id}
 
@@ -62,8 +62,7 @@ In designing and building your project, you will start by forking and cloneing t
           .catch(error => {
           console.log(error)
                })
-          })
-
+          }) ```
 
 8. MVP goals (x3-5)
      - Have users press a button to sign up/login and be put/aknowledged into a data base
