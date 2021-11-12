@@ -23,12 +23,8 @@ In designing and building your project, you will start by forking and cloneing t
      * Can be handdrawn, or with tool of your choice
      * Example online tool: [Miro.com](https://miro.com/)
           - https://www.figma.com/file/ku8IuoGYtNKk7uuLVsqMvD/perfectPet?node-id=0%3A1
-          - ![perfectPet](https://user-images.githubusercontent.com/78924263/141401310-d0f42bbc-3c3d-42f6-8452-c3e4d806082a.png)
-          - ![perfectPet (1)](https://user-images.githubusercontent.com/78924263/141401320-db7f9446-6379-4f58-aa62-25aaf4400bd5.png)
-          - ![perfectPet (2)](https://user-images.githubusercontent.com/78924263/141401339-fb2637c1-32f7-4f7e-9ff7-496108eaf0fd.png)
-          - ![perfectPet (3)](https://user-images.githubusercontent.com/78924263/141401362-c45b269e-e703-489f-9b29-3ab87489d11f.png)
-          - ![perfectPet (4)](https://user-images.githubusercontent.com/78924263/141401376-af226b7d-c999-4ea0-aaf4-c27deceeac03.png)
-                   
+          - ![perfectPet (5)](https://user-images.githubusercontent.com/78924263/141401541-6ca5cd12-f41d-429e-848d-b1938128f4b9.png)
+
 5. API you plan to use
      - https://www.petfinder.com/developers/v2/docs/
 
