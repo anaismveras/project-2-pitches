@@ -43,9 +43,9 @@ In designing and building your project, you will start by forking and cloneing t
           res.render('locationDetail', {animals});
                })
           }); 
-
+          ```
      - To see information of Favorited Animal
-
+          ```js
                router.get('/:id', (req, res)=> {
                let favePetInfo => req.params.id 
                let animalUrl = https://api.petfinder.com/v2/animals/${id}
